@@ -12,3 +12,16 @@ So, we want to maximise the return. A, B, and C cannot be carried out in a parti
 way. 
 
 The objective function is defined as follows:
+
+```math
+max(20x_1 + 2x_2 + 10x_3)
+```
+and the constraints are:
+
+```math
+x_i \in \{0,1\}, \space \text{where} \space i \in \{1,2,3\}
+```
+```math
+750x_1 + 200x_2 + 800x_3 \leq 1000
+```
+So, this is an ansignment problem. 
