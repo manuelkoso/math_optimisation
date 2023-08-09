@@ -1,6 +1,6 @@
 # Production planning
 
-- 4 types of fertilisers whose processing is carried out by two departments
+4 types of fertilisers whose processing is carried out by two departments
 
 |                       | Type 1 | Type 2  | Type 3  | Type 4  |
 |-----------------------|--------|---------|---------|---------|
@@ -31,5 +31,4 @@ x_i \geq 0 , where \space i \in \{ 1,2,3,4 \}
 ```math
 0.5x_1 + 0.25x_2 + 0.25x_3 + 1x_4 \leq 50
 ```
-
-
+Note that this is not an integer linear problem. I'll do it later. 
