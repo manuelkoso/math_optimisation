@@ -12,7 +12,7 @@ def capital_budget():
         x_3 = model.addVar(vtype=GRB.BINARY, name="x_3")
 
         # objective function
-        model.setObjective(20 * x_1 + 2 * x_2 + 10 * x_3, GRB.MAXIMIZE)
+        model.setObjective(20 * x_1 + 5 * x_2 + 10 * x_3, GRB.MAXIMIZE)
 
         # constraints
         model.addConstr(750 * x_1 + 200 * x_2 + 800 * x_3 <= 1000, "c0")
@@ -31,4 +31,4 @@ def capital_budget():
         print(' Encountered an attribute error ')
 
 
-print("Hello")
+capital_budget()
