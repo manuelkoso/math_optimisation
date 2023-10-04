@@ -51,6 +51,9 @@ machine for the processing of each task is given in the table below.
 | Machine 3 | 6      | 7      | 2      | 8      |
 | Machine 4 | 1      | 3      | 5      | 9      |
 
+The company wants to minimise the total setup time needed for
+the processing of all four tasks.
+
 # Set covering problem
 
 ### First exercise
