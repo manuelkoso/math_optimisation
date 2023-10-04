@@ -20,7 +20,8 @@ def assignment():
         model.addConstr(gp.quicksum(x[i, j] for i in rows) == 1)
 
     model.setObjective(
-        gp.quicksum(costs[i, j] * x[i, j] for j in columns for i in rows)
+        gp.quicksum(costs[i, j] * x[i, j] for j in columns for i in rows),
+        GRB.MINIMIZE
     )
 
     model.optimize()
