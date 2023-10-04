@@ -5,6 +5,7 @@ import numpy as np
 
 def assignment():
     model = gp.Model("assignment")
+    # model.setParam("outputFlag", 0) # disable log
 
     x = model.addMVar((4, 4), vtype=GRB.BINARY)
 
