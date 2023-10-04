@@ -1,5 +1,5 @@
-DIR = slide01
-SRC = main.py
+DIR = 01_introduction
+SRC = capital_budget.py
 
 .PHONY: run clean setup
 

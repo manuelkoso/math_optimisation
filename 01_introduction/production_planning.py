@@ -27,3 +27,6 @@ def production_planning():
         print(' Error code ' + str(e.errno) + ': ' + str(e))
     except AttributeError:
         print(' Encountered an attribute error ')
+
+
+production_planning()

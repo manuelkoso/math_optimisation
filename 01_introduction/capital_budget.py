@@ -29,3 +29,6 @@ def capital_budget():
         print(' Error code ' + str(e.errno) + ': ' + str(e))
     except AttributeError:
         print(' Encountered an attribute error ')
+
+
+capital_budget()

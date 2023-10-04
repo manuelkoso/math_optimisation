@@ -1,4 +1,4 @@
-# Table of contents
+Table of contents
 <!-- TOC -->
 * [Production planning](#production-planning)
 * [Capital budget](#capital-budget)
