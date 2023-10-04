@@ -70,6 +70,10 @@ problem of choosing a minimum-cost set of locations for the fire
 stations such that each community can be reached from some fire
 station in 10 minutes is a set-covering problem.
 
+Let M = {1, 2, 3, 4, 5},
+{M} = {{1, 3, 5}, {2, 3}, {1, 4}, {3, 4, 5}, {2}, {5}, {1, 5}},
+c = [3, 5, 1, 9, 2, 4, 1].
+
 ### Second exercise
 
 The director of a television channel for local information must
