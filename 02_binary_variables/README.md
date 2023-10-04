@@ -56,8 +56,6 @@ the processing of all four tasks.
 
 # Set covering problem
 
-### First exercise
-
 A typical application concerns facility location. Suppose we are
 given a set of potential sites N = {1, . . . , n} for the location of
 fire stations. A station placed at j costs cj.
@@ -76,42 +74,3 @@ station in 10 minutes is a set-covering problem.
 Let M = {1, 2, 3, 4, 5},
 {M} = {{1, 3, 5}, {2, 3}, {1, 4}, {3, 4, 5}, {2}, {5}, {1, 5}},
 c = [3, 5, 1, 9, 2, 4, 1].
-
-### Second exercise
-
-The director of a television channel for local information must
-organise the work of the teams of journalists and operators to
-cover m different off-site services. The editor-in-chief has prepared
-n possible activities that a each individual team can carry out,
-where an activity is the set of services that can be performed and
-involves a certain cost of remuneration for the team, including
-travel costs and any overtime hours. The director must decide
-which of the activities to do in order to pay as little as possible
-with the guarantee that each of the services is “covered” by at
-least one team.
-
-# Set packing problem
-
-The famous shop window designer Ulivetto Laziali was called to set
-up the shop window of the most important florist of Trieste. With
-the m flowers, of different shape and colour, that the florist
-provided him, Ulivetto produces n different sketches of floral
-arrangements and for each of them also provides a score of
-“compositional beauty”. He therefore decides to set up a set of
-floral arrangements in the shop window that maximises the overall
-score (defined as the sum of the scores of the individual
-compositions created). The problem is clearly a packing problem
-as it cannot create two compositions containing the same flower.
-
-# Set partitioning problem
-
-The manager of a construction site in Vicenza for the new
-high-speed line must contract out m different works. The
-procurement office has prepared several possible contract
-assignments, each of which is made up of a subset of the works
-which, for reasons of efficiency, it is good that they are performed
-by the same company. For each contract assignment is also defined
-the cost. The problem is to decide which contracts to award so
-that all the works are carried out and the cost of the contracts is
-minimum. This problem can easily be formulated as a partition
-problem.
