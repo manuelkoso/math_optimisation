@@ -19,4 +19,5 @@ def knapsack():
         print('% s % g ' % (v.VarName, v.X))
     print(' Obj : % g ' % model.ObjVal)
 
+
 knapsack()
