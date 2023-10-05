@@ -4,7 +4,7 @@ Table of contents
 * [Capital budget](#capital-budget)
 <!-- TOC -->
 
-# Production planning
+# [Production planning](production_planning.py)
 
 A chemical industry manufactures 4 types of fertilisers, Type 1, Type 2, Type 3, and
 Type 4, whose processing is carried out by two departments of the industry: the
@@ -51,7 +51,7 @@ x_i \geq 0 , where \space i \in \{ 1,2,3,4 \}
 0.5x_1 + 0.25x_2 + 0.25x_3 + 1x_4 \leq 50
 ```
 
-# Capital budget
+# [Capital budget](capital_budget.py)
 
 Suppose we have to invest e1000 on the financial market. We also
 assume that the market offers three different types of investments

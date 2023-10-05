@@ -5,7 +5,7 @@ Table of contents
 * [Set covering problem](#set-covering-problem)
 <!-- TOC -->
 
-# 0-1 Knapsack problem
+# [0-1 Knapsack problem](knapsack.py)
 
 Suppose you are planning a
 picnic. You’ve constructed a list
@@ -33,7 +33,7 @@ is listed in the next table.
 | Salad         | 5      | 4      |
 | Watermelon    | 10     | 10     |
 
-# Assignment problem
+# [Assignment problem](assignment.py)
 
 A company has 4 machines available for assignment to 4 tasks.
 Any machine can be assigned to any task, and each task requires
@@ -50,7 +50,7 @@ machine for the processing of each task is given in the table below.
 The company wants to minimise the total setup time needed for
 the processing of all four tasks.
 
-# Set covering problem
+# [Set covering problem](set_covering.py)
 
 A typical application concerns facility location. Suppose we are
 given a set of potential sites N = {1, . . . , n} for the location of
